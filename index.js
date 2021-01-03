@@ -18,7 +18,7 @@ app.use(bodyparser.urlencoded({extended:false}))
 
 app.get('/',(req,res) => {
 
-  res.render('xmlsitemapgenerator',{title:'Generate XML Sitemap for Domain Online - XML Sitemap Generator Online - FreeMediaTools.com'})
+  res.render('xmlsitemapgenerator',{title:'Generate XML Sitemap for Domain Online - XML Sitemap Generator Online'})
   
   })
   
